@@ -1,18 +1,39 @@
-body{
-	background-color: gray;
+#stage{	
+	width: 1020px;
+	height: 768px;
+	position: relative;
 }
-#pokedex{
-	background-image: url('../img/Pokedex.png');
-	background-repeat: no-repeat;
-	background-position: center;
-	width: 500px;
-	height: 600px;
-	padding-left: 60%;
+img{
+	width:  368px;
+	height: 199px;
+	border-style: solid;
 }
-#pokeimg{
-	width: 256px;
-	height: 174px;
-	background-color: green;
-	
-
+.img{
+	height: 200px;
+}
+.cuadro{
+	border-radius: 8px;
+	margin: auto;
+	text-align: center;
+	margin-top: 20px;
+	padding-top: 10px;	
+}
+.datos{
+	margin: 40px 10px 20px 10px;
+	height: 270px;
+	width: 380px;
+	background-color: white;
+	text-align: center;
+}
+#card{
+	float:left;
+	background:url("../img/back-Electrico.png");
+	width: 400px;
+	height: 580px;
+	border-radius: 15px;
+	border-style: solid;
+}
+#nombre{
+	padding-top: 20px;
+	text-align: center;
 }
