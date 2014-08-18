@@ -1,9 +1,13 @@
+@font-face {
+    font-family: pokeFont;
+    src: url('../font/Pokemon Solid.ttf');
+}
 #stage{	
 	width: 1020px;
 	height: 768px;
 	position: relative;
 }
-img{
+.imgs{
 	width:  368px;
 	height: 199px;
 	border-style: solid;
@@ -15,12 +19,11 @@ img{
 	border-radius: 8px;
 	margin: auto;
 	text-align: center;
-	margin-top: 20px;
 	padding-top: 10px;	
 }
 .datos{
-	margin: 40px 10px 20px 10px;
-	height: 270px;
+	margin: 30px 10px 10px 10px;
+	height: 200px;
 	width: 380px;
 	background-color: white;
 	text-align: center;
@@ -33,7 +36,40 @@ img{
 	border-radius: 15px;
 	border-style: solid;
 }
-#nombre{
-	padding-top: 20px;
+#logo{
+	padding-left: 15px;
+	float:left;
+	width: 25px;
+	height: 25px;
+}
+#header{
+	padding-top: 10px;
+	font-family: pokeFont;
+	font-size: 20px;
+
+}
+#vida{
+	width: 100px;
+	height: 25px;
+	background-color: white;
+	padding-left: 15px;
+	float: left;
+}
+#ataque{
+	width: 100px;
+	height: 25px;
+	background-color: white;
+	float: right;
 	text-align: center;
+}
+#nombre{
+	width: 50px;
+}
+#poder{
+	margin-left: 25px;
+	padding-top: 35px;
+	text-align: justify;
+	font-size: 18px;
+	width: 335px;
+	height: 225px;
 }
